@@ -1,0 +1,199 @@
+.navItems {
+  background-color: #09192a;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.navItems > a {
+  font-size: 21x;
+  font-weight: bold;
+  padding: 7px;
+  color: grey;
+  text-transform: uppercase;
+}
+.navItems > a:hover {
+  color: gainsboro;
+}
+.headerBg {
+  background: linear-gradient(to right, #282c34 0%, #09192a 100%);
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 5%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.profile {
+  color: #f5deb3;
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  padding: 150px 0px;
+}
+.profileInfo {
+  flex: 50%;
+  text-align: center;
+}
+.profilePhoto {
+  flex: 50%;
+  text-align: center;
+}
+.photo {
+  border-radius: 50%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.btn {
+  padding: 10px 25px;
+  background-color: #09192a;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 3px;
+  border: none;
+  font-size: 23px;
+  font-weight: bold;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.about {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #f8ac3f 0%, #cf8e43 100%);
+  color: #431311;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 50px;
+  font-size: 21px;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.mobile {
+  flex: 48%;
+  background-color: wheat;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 2%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.web {
+  flex: 48%;
+  background-color: brown;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 2%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.svg {
+  flex: 40%;
+  background-color: #1e1a42;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 2%;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.topProject {
+  flex: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.projectItems {
+  display: flex;
+  background-color: #07153c;
+  color: #17c3ee;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 1px 0px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.projectItemsPhoto {
+  flex: 30%;
+
+  display: grid;
+  place-content: center;
+}
+.projectItemsInfo {
+  flex: 70%;
+}
+.gitNLiveBtn {
+  font-size: 21px;
+  padding: 9px 15px;
+  margin: 6px;
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.contact {
+  background-color: #09192a;
+  color: wheat;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 200px;
+  font-size: x-large;
+  text-align: center;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+.contact > a {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 20px 8px;
+  color: #f5deb3;
+}
+
+.blog {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .profile {
+    padding: 50px 0px;
+  }
+  .headerBg {
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 20%;
+  }
+  .about {
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+  }
+  .project,
+  .services {
+    flex-direction: column;
+  }
+
+  .profile {
+    flex-direction: column-reverse;
+  }
+  .profilePhoto {
+    margin-bottom: 20px;
+  }
+}
