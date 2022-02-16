@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div
             className={styles.profilePhoto}
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="50"
             data-aos-duration="2000"
