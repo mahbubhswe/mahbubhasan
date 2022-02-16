@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main>
+      <main className="mainContainer>
         <section id="about">
           <h1>About Me</h1>
           <div
